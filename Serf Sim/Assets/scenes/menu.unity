@@ -297,6 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   email: 
   password: 
+  savedPasswordHash: 
   displayText: {fileID: 0}
   loginButton: {fileID: 0}
   emailField: {fileID: 0}
@@ -459,7 +460,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 631663056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 352316299}
@@ -467,7 +468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 86}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &631663058
@@ -1009,18 +1010,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1904002904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: 0583965af338e4f44a272b3ab34c23ad, type: 3}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1904002904
@@ -1069,6 +1059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   email: 
   password: 
+  savedPasswordHash: 
   displayText: {fileID: 631663058}
   loginButton: {fileID: 1904002903}
   emailField: {fileID: 1493782129}
